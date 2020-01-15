@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h1>Registro Usuario</h1>
+<br />
+<br />
+
+<div class="container">
+
+    <label for="UsuarioId" class="col-md-2 col-form-label">UsuarioId</label>
+    <input type="number" id="UsuarioId" class="form-check" />
+
+
+</div>
+<br />
+<div class="container">
+
+
+    <label for="Usuario" class="col-md-2 col-form-label">Usuario</label>
+    <input type="text" id="Usuario" class="form-check" />
+
+</div>
+<br />
+<div class="container">
+
+
+    <label for="Contraseña" class="col-md-2 col-form-label">Contraseña</label>
+    <input type="text" id="Contraseña" class="form-check" />
+    
+
+</div>
+
+<br />
+
+<div class="form-group">
+    <button type="button" class="col-md-offset-1 btn btn-primary">Nuevo</button>
+    <button type="button" class="col-md-offset-1 btn btn-success">Guardar</button>
+    <button type="button" class="col-md-offset-1 btn btn-danger">Eliminar</button>
+
+</div>
